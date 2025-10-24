@@ -1,0 +1,39 @@
+#container{
+    height: 600px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+     flex-wrap: nowrap;
+    /* align-items: baseline; */
+    align-content: flex-start;
+    
+}
+
+#blues{
+    /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    /* min-width: 400px; */
+    flex-shrink: 1;
+}
+#org{
+    /* align-self: center; */
+    /* flex-basis: 50px; */
+    /* flex-grow: 1 ; */
+    flex-shrink: 3;
+}
+
+h1{
+    text-align: center  ;
+}
+
+#container div{
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

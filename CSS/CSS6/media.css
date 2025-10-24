@@ -1,0 +1,42 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width: 400px){
+    h1{
+        background-color: magenta;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 200px;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 900px){
+    h1{
+        background-color: red;
+    }
+}
+
+@media (max-width: 300px){
+    h1{
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+    h1{
+        background-color: rgba(0, 0, 0, 0.427);
+        font-size: 200px;
+    }
+}
+
+@media (orientation: landscape){
+    h1{
+        background-color: blueviolet;
+        color: pink;
+    }
+}
